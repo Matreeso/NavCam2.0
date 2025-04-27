@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDADF2302DBDF54400E361DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDADF22F2DBDF54400E361DF /* GoogleService-Info.plist */; };
+		BDADF2342DBDF61700E361DF /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = BDADF2332DBDF61700E361DF /* GoogleSignIn */; };
+		BDADF2362DBDF61700E361DF /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BDADF2352DBDF61700E361DF /* GoogleSignInSwift */; };
+		BDADF24C2DBDFE8100E361DF /* GoogleAPIClientForREST_Drive in Frameworks */ = {isa = PBXBuildFile; productRef = BDADF24B2DBDFE8100E361DF /* GoogleAPIClientForREST_Drive */; };
+		BDADF24E2DBDFE8100E361DF /* GoogleAPIClientForREST_DriveActivity in Frameworks */ = {isa = PBXBuildFile; productRef = BDADF24D2DBDFE8100E361DF /* GoogleAPIClientForREST_DriveActivity */; };
+		BDADF2502DBDFE8100E361DF /* GoogleAPIClientForREST_DriveLabels in Frameworks */ = {isa = PBXBuildFile; productRef = BDADF24F2DBDFE8100E361DF /* GoogleAPIClientForREST_DriveLabels */; };
+		BDADF2562DBE026A00E361DF /* GTMSessionFetcher in Frameworks */ = {isa = PBXBuildFile; productRef = BDADF2552DBE026A00E361DF /* GTMSessionFetcher */; };
+		BDADF2582DBE026A00E361DF /* GTMSessionFetcherCore in Frameworks */ = {isa = PBXBuildFile; productRef = BDADF2572DBE026A00E361DF /* GTMSessionFetcherCore */; };
+		BDADF25A2DBE026A00E361DF /* GTMSessionFetcherFull in Frameworks */ = {isa = PBXBuildFile; productRef = BDADF2592DBE026A00E361DF /* GTMSessionFetcherFull */; };
+		BDADF25C2DBE026A00E361DF /* GTMSessionFetcherLogView in Frameworks */ = {isa = PBXBuildFile; productRef = BDADF25B2DBE026A00E361DF /* GTMSessionFetcherLogView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94A851472DBDB50300E0168C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94A851312DBDB50200E0168C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94A851382DBDB50200E0168C;
+			remoteInfo = NavCam2.0;
+		};
+		94A851512DBDB50300E0168C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94A851312DBDB50200E0168C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94A851382DBDB50200E0168C;
+			remoteInfo = NavCam2.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94A851392DBDB50200E0168C /* NavCam2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavCam2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A851462DBDB50300E0168C /* NavCam2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavCam2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A851502DBDB50300E0168C /* NavCam2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavCam2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDADF22F2DBDF54400E361DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDADF2312DBDF57900E361DF /* NavCam2-0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavCam2-0-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		94A8513B2DBDB50200E0168C /* NavCam2.0 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NavCam2.0;
+			sourceTree = "<group>";
+		};
+		94A851492DBDB50300E0168C /* NavCam2.0Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NavCam2.0Tests;
+			sourceTree = "<group>";
+		};
+		94A851532DBDB50300E0168C /* NavCam2.0UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NavCam2.0UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94A851362DBDB50200E0168C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDADF2582DBE026A00E361DF /* GTMSessionFetcherCore in Frameworks */,
+				BDADF2562DBE026A00E361DF /* GTMSessionFetcher in Frameworks */,
+				BDADF24C2DBDFE8100E361DF /* GoogleAPIClientForREST_Drive in Frameworks */,
+				BDADF2502DBDFE8100E361DF /* GoogleAPIClientForREST_DriveLabels in Frameworks */,
+				BDADF24E2DBDFE8100E361DF /* GoogleAPIClientForREST_DriveActivity in Frameworks */,
+				BDADF25C2DBE026A00E361DF /* GTMSessionFetcherLogView in Frameworks */,
+				BDADF25A2DBE026A00E361DF /* GTMSessionFetcherFull in Frameworks */,
+				BDADF2362DBDF61700E361DF /* GoogleSignInSwift in Frameworks */,
+				BDADF2342DBDF61700E361DF /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A851432DBDB50300E0168C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A8514D2DBDB50300E0168C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94A851302DBDB50200E0168C = {
+			isa = PBXGroup;
+			children = (
+				94A8513B2DBDB50200E0168C /* NavCam2.0 */,
+				94A851492DBDB50300E0168C /* NavCam2.0Tests */,
+				94A851532DBDB50300E0168C /* NavCam2.0UITests */,
+				94A8513A2DBDB50200E0168C /* Products */,
+				BDADF22F2DBDF54400E361DF /* GoogleService-Info.plist */,
+				BDADF2312DBDF57900E361DF /* NavCam2-0-Info.plist */,
+				BDADF24A2DBDFE8100E361DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94A8513A2DBDB50200E0168C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94A851392DBDB50200E0168C /* NavCam2.0.app */,
+				94A851462DBDB50300E0168C /* NavCam2.0Tests.xctest */,
+				94A851502DBDB50300E0168C /* NavCam2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDADF24A2DBDFE8100E361DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94A851382DBDB50200E0168C /* NavCam2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A8515A2DBDB50300E0168C /* Build configuration list for PBXNativeTarget "NavCam2.0" */;
+			buildPhases = (
+				94A851352DBDB50200E0168C /* Sources */,
+				94A851362DBDB50200E0168C /* Frameworks */,
+				94A851372DBDB50200E0168C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				94A8513B2DBDB50200E0168C /* NavCam2.0 */,
+			);
+			name = NavCam2.0;
+			productName = NavCam2.0;
+			productReference = 94A851392DBDB50200E0168C /* NavCam2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94A851452DBDB50300E0168C /* NavCam2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A8515D2DBDB50300E0168C /* Build configuration list for PBXNativeTarget "NavCam2.0Tests" */;
+			buildPhases = (
+				94A851422DBDB50300E0168C /* Sources */,
+				94A851432DBDB50300E0168C /* Frameworks */,
+				94A851442DBDB50300E0168C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94A851482DBDB50300E0168C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				94A851492DBDB50300E0168C /* NavCam2.0Tests */,
+			);
+			name = NavCam2.0Tests;
+			productName = NavCam2.0Tests;
+			productReference = 94A851462DBDB50300E0168C /* NavCam2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94A8514F2DBDB50300E0168C /* NavCam2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A851602DBDB50300E0168C /* Build configuration list for PBXNativeTarget "NavCam2.0UITests" */;
+			buildPhases = (
+				94A8514C2DBDB50300E0168C /* Sources */,
+				94A8514D2DBDB50300E0168C /* Frameworks */,
+				94A8514E2DBDB50300E0168C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94A851522DBDB50300E0168C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				94A851532DBDB50300E0168C /* NavCam2.0UITests */,
+			);
+			name = NavCam2.0UITests;
+			productName = NavCam2.0UITests;
+			productReference = 94A851502DBDB50300E0168C /* NavCam2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94A851312DBDB50200E0168C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					94A851382DBDB50200E0168C = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					94A851452DBDB50300E0168C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 94A851382DBDB50200E0168C;
+					};
+					94A8514F2DBDB50300E0168C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 94A851382DBDB50200E0168C;
+					};
+				};
+			};
+			buildConfigurationList = 94A851342DBDB50200E0168C /* Build configuration list for PBXProject "NavCam2.0" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94A851302DBDB50200E0168C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BDADF22E2DBDF32100E361DF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				BDADF2492DBDFE6A00E361DF /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
+				BDADF2542DBE026A00E361DF /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 94A8513A2DBDB50200E0168C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94A851382DBDB50200E0168C /* NavCam2.0 */,
+				94A851452DBDB50300E0168C /* NavCam2.0Tests */,
+				94A8514F2DBDB50300E0168C /* NavCam2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94A851372DBDB50200E0168C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDADF2302DBDF54400E361DF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A851442DBDB50300E0168C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A8514E2DBDB50300E0168C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94A851352DBDB50200E0168C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A851422DBDB50300E0168C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A8514C2DBDB50300E0168C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94A851482DBDB50300E0168C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94A851382DBDB50200E0168C /* NavCam2.0 */;
+			targetProxy = 94A851472DBDB50300E0168C /* PBXContainerItemProxy */;
+		};
+		94A851522DBDB50300E0168C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94A851382DBDB50200E0168C /* NavCam2.0 */;
+			targetProxy = 94A851512DBDB50300E0168C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94A851582DBDB50300E0168C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V9VKUA862U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94A851592DBDB50300E0168C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V9VKUA862U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94A8515B2DBDB50300E0168C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NavCam2.0/NavCam2.0.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R5287KFT85;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NavCam2-0-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses your front-facing camera to show a live preview while navigating";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app uses your location to provide turn-by-turn navigation even when running in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to center the map on where you are";
+				INFOPLIST_KEY_NSMotionUsageDescription = "MOTION ALERT!!!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94A8515C2DBDB50300E0168C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NavCam2.0/NavCam2.0.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R5287KFT85;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NavCam2-0-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses your front-facing camera to show a live preview while navigating";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app uses your location to provide turn-by-turn navigation even when running in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to center the map on where you are";
+				INFOPLIST_KEY_NSMotionUsageDescription = "MOTION ALERT!!!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94A8515E2DBDB50300E0168C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9VKUA862U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tanishq.NavCam2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavCam2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavCam2.0";
+			};
+			name = Debug;
+		};
+		94A8515F2DBDB50300E0168C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9VKUA862U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tanishq.NavCam2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavCam2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavCam2.0";
+			};
+			name = Release;
+		};
+		94A851612DBDB50300E0168C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9VKUA862U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tanishq.NavCam2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavCam2.0;
+			};
+			name = Debug;
+		};
+		94A851622DBDB50300E0168C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9VKUA862U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tanishq.NavCam2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavCam2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94A851342DBDB50200E0168C /* Build configuration list for PBXProject "NavCam2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A851582DBDB50300E0168C /* Debug */,
+				94A851592DBDB50300E0168C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A8515A2DBDB50300E0168C /* Build configuration list for PBXNativeTarget "NavCam2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A8515B2DBDB50300E0168C /* Debug */,
+				94A8515C2DBDB50300E0168C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A8515D2DBDB50300E0168C /* Build configuration list for PBXNativeTarget "NavCam2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A8515E2DBDB50300E0168C /* Debug */,
+				94A8515F2DBDB50300E0168C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A851602DBDB50300E0168C /* Build configuration list for PBXNativeTarget "NavCam2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A851612DBDB50300E0168C /* Debug */,
+				94A851622DBDB50300E0168C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BDADF22E2DBDF32100E361DF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		BDADF2492DBDFE6A00E361DF /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		BDADF2542DBE026A00E361DF /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/gtm-session-fetcher.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDADF2332DBDF61700E361DF /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDADF22E2DBDF32100E361DF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		BDADF2352DBDF61700E361DF /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDADF22E2DBDF32100E361DF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		BDADF24B2DBDFE8100E361DF /* GoogleAPIClientForREST_Drive */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDADF2492DBDFE6A00E361DF /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Drive;
+		};
+		BDADF24D2DBDFE8100E361DF /* GoogleAPIClientForREST_DriveActivity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDADF2492DBDFE6A00E361DF /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_DriveActivity;
+		};
+		BDADF24F2DBDFE8100E361DF /* GoogleAPIClientForREST_DriveLabels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDADF2492DBDFE6A00E361DF /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_DriveLabels;
+		};
+		BDADF2552DBE026A00E361DF /* GTMSessionFetcher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDADF2542DBE026A00E361DF /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcher;
+		};
+		BDADF2572DBE026A00E361DF /* GTMSessionFetcherCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDADF2542DBE026A00E361DF /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherCore;
+		};
+		BDADF2592DBE026A00E361DF /* GTMSessionFetcherFull */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDADF2542DBE026A00E361DF /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherFull;
+		};
+		BDADF25B2DBE026A00E361DF /* GTMSessionFetcherLogView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDADF2542DBE026A00E361DF /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherLogView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 94A851312DBDB50200E0168C /* Project object */;
+}
